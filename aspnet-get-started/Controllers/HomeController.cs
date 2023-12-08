@@ -28,9 +28,9 @@ namespace aspnet_get_started.Controllers
             return View();
         }
 
-        public ActionResult JobSummary()
+        public ActionResult JobNeeds()
         {
-            ViewBag.Message = "Your Job Summary page.";
+            ViewBag.Message = "Your Job Needs page.";
 
             return View();
         }
