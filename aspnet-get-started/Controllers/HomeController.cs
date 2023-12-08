@@ -26,5 +26,12 @@ namespace aspnet_get_started.Controllers
 
             return View();
         }
+
+        public ActionResult JobSummary()
+        {
+            ViewBag.Message = "Your Job Summary page.";
+
+            return View();
+        }
     }
 }
