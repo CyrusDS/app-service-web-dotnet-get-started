@@ -13,13 +13,13 @@ namespace aspnet_get_started.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
-            ViewBag.Message = "IT Systems Engineer";
+        // public ActionResult About()
+        // {
+        //     ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
+        //     ViewBag.Message = "IT Systems Engineer";
 
-            return View();
-        }
+        //     return View();
+        // }
 
         public ActionResult Contact()
         {
@@ -30,7 +30,8 @@ namespace aspnet_get_started.Controllers
 
         public ActionResult JobNeeds()
         {
-            ViewBag.Message = "Your Job Needs page.";
+            ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
+            ViewBag.Message = "IT Systems Engineer.";
 
             return View();
         }
