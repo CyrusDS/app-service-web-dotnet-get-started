@@ -1,10 +1,23 @@
 ﻿@{
     ViewBag.Title = "Contact Me Further";
 }
+
+<style>
+    /* Add a style block to apply CSS styles */
+    .center-image {
+        text-align: center;
+    }
+</style>
+
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
-<!-- Display the image using the URL -->
-<img src="@ViewBag.ImageUrl" alt="Image of me" width="300" height="200">
+
+<!-- Apply the center-image class to center the image -->
+<div class="center-image">
+    <!-- Display the image using the URL -->
+    <img src="@ViewBag.ImageUrl" alt="Image of me" width="300" height="300">
+</div>
+
 <address>
     11189 Random Way<br />
     Lafayette, CO 80026<br />
@@ -13,5 +26,5 @@
 </address>
 
 <address>
-    <strong>My Personal Contacts:</strong>   <a href="mailto:cyrus.sowdaey@gmail.com">cyrus.sowdaey@gmail.com</a><br />
+    <strong>My Personal Contacts:</strong> <a href="mailto:cyrus.sowdaey@gmail.com">cyrus.sowdaey@gmail.com</a><br />
 </address>

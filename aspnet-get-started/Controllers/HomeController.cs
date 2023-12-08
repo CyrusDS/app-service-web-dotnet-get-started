@@ -23,7 +23,7 @@ namespace aspnet_get_started.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "My contact page";
+            // ViewBag.Message = "My contact page";
             ViewBag.ImageUrl = "https://media.licdn.com/dms/image/C5603AQHVLW_DNxoRKQ/profile-displayphoto-shrink_400_400/0/1650057570109?e=1707350400&v=beta&t=OgOHosoVEvX1kuDw8S6u3TX5S2yFxP59JBP7yz9nskA";
             return View();
         }
