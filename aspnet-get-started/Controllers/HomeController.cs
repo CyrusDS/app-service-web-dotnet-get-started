@@ -28,7 +28,7 @@ namespace aspnet_get_started.Controllers
             return View();
         }
 
-        public ActionResult JobNeeds()
+        public ActionResult AboutCU()
         {
             ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
             ViewBag.Message = "IT Systems Engineer!";
