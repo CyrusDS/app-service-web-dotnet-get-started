@@ -73,7 +73,10 @@ fieldset[disabled] .btn-danger {
   text-shadow: 0 1px 0 #fff;
   border-color: #ccc;
 }
-.btn-default:hover,
+.btn-default:hover {
+  background-color: #07e015;
+  border-color: #000000;
+}
 .btn-default:focus {
   background-color: #07e015;
   background-position: 0 -15px;
