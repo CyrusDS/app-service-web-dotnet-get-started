@@ -31,19 +31,19 @@ namespace aspnet_get_started.Controllers
         public ActionResult JobNeeds()
         {
             ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
-            ViewBag.Message = "IT Systems Engineer.";
+            ViewBag.Message = "IT Systems Engineer!";
 
             return View();
         }
         public ActionResult Responsibilities()
         {
-            ViewBag.Message = "Your Responsibilities page.";
+            ViewBag.Message = "What my Responsibilities Would be";
 
             return View();
         }
         public ActionResult MyQuestions()
         {
-            ViewBag.Message = "My Questions page.";
+            // ViewBag.Message = "My Questions page.";
 
             return View();
         }
