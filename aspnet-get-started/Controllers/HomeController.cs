@@ -37,7 +37,7 @@ namespace aspnet_get_started.Controllers
         }
         public ActionResult Responsibilities()
         {
-            ViewBag.Message = "What my Responsibilities Would be";
+            ViewBag.Message = "What my Responsibilities Would be:";
 
             return View();
         }
