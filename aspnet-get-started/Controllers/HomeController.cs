@@ -13,13 +13,13 @@ namespace aspnet_get_started.Controllers
             return View();
         }
 
-        // public ActionResult About()
-        // {
-        //     ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
-        //     ViewBag.Message = "IT Systems Engineer";
+        public ActionResult JobSummary()
+        {
+            // ViewBag.ImageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png";
+            ViewBag.Message = "Job Skills!!";
 
-        //     return View();
-        // }
+            return View();
+        }
 
         public ActionResult Contact()
         {

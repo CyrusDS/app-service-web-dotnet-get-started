@@ -160,6 +160,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\JobNeeds.cshtml" />
+    <Content Include="Views\Home\JobSummary.cshtml" />
     <Content Include="Views\Home\Responsibilities.cshtml" />
     <Content Include="Views\Home\MyQuestions.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
