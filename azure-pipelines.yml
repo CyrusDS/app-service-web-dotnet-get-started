@@ -3,7 +3,7 @@ trigger:
 
 pool:
   default
-
+#This is a very simple azure pipeline. Github handles build and deployment to the Azure webapp. The Azure Pipeline simply views the website and verifies it is online.
 jobs:
   # - job: Build
   #   displayName: 'Build job'
