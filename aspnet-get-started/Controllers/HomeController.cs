@@ -39,5 +39,11 @@ namespace aspnet_get_started.Controllers
 
             return View();
         }
+        public ActionResult MyQuestions()
+        {
+            ViewBag.Message = "My Responsibilities page.";
+
+            return View();
+        }
     }
 }
